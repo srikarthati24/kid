@@ -1,0 +1,2 @@
+# kid
+my first project

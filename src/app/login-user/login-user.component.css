@@ -1,0 +1,26 @@
+table {
+    width: 100%;
+}
+.example-card{
+    /* background-color: #33B5E5; */
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 0px;
+    align-items: center;
+}
+.mat-form-wrap{
+    width: 60%;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-style{
+    background-color: #33B5E5;
+    color: white;
+    width : 105px;
+    height: 40px;
+    left: 0px;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 18px;
+}

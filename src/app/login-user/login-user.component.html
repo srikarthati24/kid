@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <mat-card class="col-lg-12 row example-card parent">
+          <div class="block child">
+            <p  style="text-align: center;font-size: large;font-weight: 100;" >Login</p>
+              <mat-form-field class="col-md-12 mat-form-wrap" style="color :gray">
+              <mat-label style="color :gray;align-items: center;">UserName</mat-label>
+              <mat-icon style="color :gray" matSuffix></mat-icon> 
+              <input style="color:gray;" matInput  name="first_name" type="text">
+            </mat-form-field>
+            <mat-form-field class="col-md-12 mat-form-wrap" style="color :gray">
+                <mat-label style="color :gray;align-items: center;">Password</mat-label>
+                <mat-icon style="color :gray" matSuffix></mat-icon> 
+                <input style="color:gray;" matInput  name="last_name" type="text">
+              </mat-form-field>
+            <button style="margin-top: 10px;" mat-raised-button class="btn-style" (click)="onsubmitclick()">{{buttoncontent}}</button>
+          </div>
+        </mat-card>
+        </div>
+    </div>
+    </div>
